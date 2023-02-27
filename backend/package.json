@@ -1,0 +1,20 @@
+{
+  "name": "chat-test-backend",
+  "version": "1.0.0",
+  "description": "chat-test",
+  "main": "index.js",
+  "author": "Kayle V. Lazatin",
+  "license": "GPL-3.0-or-later",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon ./src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}
